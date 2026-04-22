@@ -2,6 +2,7 @@
 .env
 .env.local
 .env.*.local
+.git-credentials
 
 # 설정 파일 (개인 설정용)
 config.json
