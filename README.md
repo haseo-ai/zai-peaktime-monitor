@@ -6,9 +6,9 @@ Real-time performance monitoring dashboard for z.ai API
 
 ---
 
-| Real-time Metrics | Charts |
-| :---: | :---: |
-| <img width="270" height="534" alt="Screenshot_20260422-160044" src="https://github.com/user-attachments/assets/216f7c44-cb41-4922-b8fc-cb20a533fce2" /> | <img width="270" height="533" alt="Screenshot_20260422-141138" src="https://github.com/user-attachments/assets/d1a7764f-9e39-4b58-875b-c65d3181fb1a" /> |
+| Real-time Metrics | Charts | Recent Errors |
+| :---: | :---: | :---: |
+| <img width="270" height="421" alt="Real-time-Metrics" src="https://github.com/user-attachments/assets/24fdf70b-bc8e-4f3e-b3b6-1cadb8da5014" /> | <img width="270" height="600" alt="Response-Time-Charts" src="https://github.com/user-attachments/assets/774e1e2e-910d-44c6-b355-fb2e12e16bc4" /> | <img width="270" height="540" alt="Recent-Errors" src="https://github.com/user-attachments/assets/f9fe4340-a381-475c-a00e-6046680bab7d" /> |
 
 ---
 
