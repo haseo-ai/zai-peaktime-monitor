@@ -6,6 +6,12 @@ Real-time performance monitoring dashboard for z.ai API
 
 ---
 
+| Real-time Metrics | Charts |
+| :---: | :---: |
+| <img width="270" height="534" alt="Screenshot_20260422-160044" src="https://github.com/user-attachments/assets/216f7c44-cb41-4922-b8fc-cb20a533fce2" /> | <img width="270" height="533" alt="Screenshot_20260422-141138" src="https://github.com/user-attachments/assets/d1a7764f-9e39-4b58-875b-c65d3181fb1a" /> |
+
+---
+
 - **Real-time monitoring of 7 models across PAAS/CODING endpoints**
   - PAAS: glm-4.7-flash (free model)
   - CODING: glm-5.1, glm-5-turbo, glm-5, glm-4.7, glm-4.6, glm-4.5 (paid models)
