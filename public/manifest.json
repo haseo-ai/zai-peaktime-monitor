@@ -1,0 +1,24 @@
+{
+  "name": "z.ai API Peak Time Monitor",
+  "name_ko": "z.ai API 피크타임 모니터",
+  "short_name": "z.ai Monitor",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "dir": "auto"
+}

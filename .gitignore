@@ -1,0 +1,31 @@
+# 환경 변수 파일 (API 키 포함)
+.env
+.env.local
+.env.*.local
+
+# 설정 파일 (개인 설정용)
+config.json
+
+# 노드 모듈
+node_modules/
+
+# 로그
+*.log
+npm-debug.log*
+
+# 데이터 파일 (런타임에 생성)
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cloudflare
+.wrangler/
+.dev.vars
