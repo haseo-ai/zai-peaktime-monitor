@@ -163,10 +163,20 @@ async function measureApi(model, endpoint) {
 }
 
 // 데이터 저장 함수
+let writeLock = false;
+
 async function saveMeasurement(measurement) {
+  if (writeLock) return;
+  writeLock = true;
   try {
     const data = await fs.readFile(HISTORY_FILE, 'utf8');
-    const history = JSON.parse(data);
+    let history;
+    try {
+      history = JSON.parse(data);
+    } catch (parseError) {
+      console.warn('history.json 손상 감지, 새로 생성합니다');
+      history = { measurements: [], lastUpdated: Date.now() };
+    }
     
     history.measurements.push(measurement);
     
@@ -179,6 +189,8 @@ async function saveMeasurement(measurement) {
     await fs.writeFile(HISTORY_FILE, JSON.stringify(history, null, 2));
   } catch (error) {
     console.error('데이터 저장 실패:', error);
+  } finally {
+    writeLock = false;
   }
 }
 
