@@ -11,6 +11,7 @@ const translations = {
         stable: "안정",
         warning: "주의", 
         danger: "위험",
+        none: "없음",
         
         // 모델 카드
         avgResponseTime: "평균 응답시간",
@@ -53,6 +54,7 @@ const translations = {
         stable: "Stable",
         warning: "Warning",
         danger: "Danger",
+        none: "None",
         
         // 모델 카드
         avgResponseTime: "Avg Response Time",
@@ -96,6 +98,7 @@ const translations = {
         warning: "注意",
         danger: "危险",
         
+        none: "无",
         // 모델 카드
         avgResponseTime: "平均响应时间",
         errorRate: "错误率",
@@ -138,6 +141,7 @@ const translations = {
         warning: "Precaución",
         danger: "Peligro",
         
+        none: "Ninguno",
         // 모델 카드
         avgResponseTime: "Tiempo de Respuesta Promedio",
         errorRate: "Tasa de Error",
@@ -180,6 +184,7 @@ const translations = {
         warning: "चेतावनी",
         danger: "खतरा",
         
+        none: "कोई नहीं",
         // 모델 카드
         avgResponseTime: "औसत प्रतिक्रिया समय",
         errorRate: "त्रुटि दर",
@@ -222,6 +227,7 @@ const translations = {
         warning: "Attention",
         danger: "Danger",
         
+        none: "Aucun",
         // 모델 카드
         avgResponseTime: "Temps de Réponse Moyen",
         errorRate: "Taux d'Erreur",
@@ -264,6 +270,7 @@ const translations = {
         warning: "تحذير",
         danger: "خطر",
         
+        none: "لا يوجد",
         // 모델 카드
         avgResponseTime: "متوسط وقت الاستجابة",
         errorRate: "معدل الخطأ",
@@ -306,6 +313,7 @@ const translations = {
         warning: "Atenção",
         danger: "Perigo",
         
+        none: "Nenhum",
         // 모델 카드
         avgResponseTime: "Tempo Médio de Resposta",
         errorRate: "Taxa de Erro",
@@ -348,6 +356,7 @@ const translations = {
         warning: "注意",
         danger: "危険",
         
+        none: "なし",
         // 모델 카드
         avgResponseTime: "平均応答時間",
         errorRate: "エラー率",
@@ -390,6 +399,7 @@ const translations = {
         warning: "Внимание",
         danger: "Опасно",
         
+        none: "Нет",
         // 모델 카드
         avgResponseTime: "Среднее время ответа",
         errorRate: "Коэффициент ошибок",

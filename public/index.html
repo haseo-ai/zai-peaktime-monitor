@@ -485,13 +485,13 @@
                     if (m.status === 'danger') errors++;
                     else if (m.status === 'warning') errors += 0.5;
                 });
-                endpointStatus[ep] = errors === 0 ? 'stable' : errors < total / 2 ? 'warning' : 'danger';
+                endpointStatus[ep] = total === 0 ? 'none' : errors === 0 ? 'stable' : errors < total / 2 ? 'warning' : 'danger';
             });
             
             // 현재 언어의 번역 가져오기
             const currentLang = getCurrentLanguage ? getCurrentLanguage() : 'ko';
             const t = translations[currentLang] || translations.ko;
-            const statusEmoji = { stable: `🟢 ${t.stable}`, warning: `🟡 ${t.warning}`, danger: `🔴 ${t.danger}` };
+            const statusEmoji = { stable: `🟢 ${t.stable}`, warning: `🟡 ${t.warning}`, danger: `🔴 ${t.danger}`, none: `➖ ${t.none || 'None'}` };
             document.getElementById('paasStatus').textContent = statusEmoji[endpointStatus.paas] || '-';
             document.getElementById('codingStatus').textContent = statusEmoji[endpointStatus.coding] || '-';
             updateModelCardsFromApi(data);
