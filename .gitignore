@@ -30,3 +30,33 @@ Thumbs.db
 # Cloudflare
 .wrangler/
 .dev.vars
+
+# 보호 폴더 (github-secure MCP 관리)
+design-notes/
+docs/research/
+docs/notes/
+docs/drafts/
+docs/private/
+notes/
+scratch/
+ideas/
+references/
+investigation/
+temp/
+tmp/
+test-data/
+samples/
+sandbox/
+backup/
+.ai/
+agent-output/
+llm-output/
+
+# 서버 관리 (내부용)
+server.sh
+start.mjs
+server.pid
+server.log
+
+# Tailscale 문서 (다른 프로젝트에 있지만 혹시모를)
+*.state
